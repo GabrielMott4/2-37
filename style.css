@@ -29,16 +29,16 @@ margin-right: 5%;
     padding-right: 20px;
     margin-top: 50px;
 }
-.catgoria-videos{
+.categoria-videos{
     display: flex;
     overflow-x: auto;
     gap: 20px;
 }
-.catgoria-videos img{
+.categoria-videos img{
     height: 200px;
     opacity: 0.5;
 }
-.catgoria-videos img:hover{
+.categoria-videos img:hover{
     opacity: 1.0;
     border: 3px solid cornflowerblue;
 }
