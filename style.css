@@ -6,7 +6,7 @@ body{
     margin-bottom: 100px;
 }
 header{
-    color: blueviolet;
+    color: white;
     border-bottom: 3px solid black;
     font-size: 32px;
     padding: 15px;
@@ -23,5 +23,22 @@ h1{
 }
 .chamada-texto{
 margin-right: 5%;
-
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.catgoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.catgoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+.catgoria-videos img :hover{
+    opacity: 1.0;
+    border: 3px solid cornflowerblue;
 }
