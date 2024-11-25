@@ -38,7 +38,7 @@ margin-right: 5%;
     height: 200px;
     opacity: 0.5;
 }
-.catgoria-videos img :hover{
+.catgoria-videos img:hover{
     opacity: 1.0;
     border: 3px solid cornflowerblue;
 }
